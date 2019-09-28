@@ -13541,9 +13541,20 @@ textarea.form-control {
     padding-right: 20%;
 }
 
+.lower {
+    position: relative;
+    margin-top: 100px
+}
+
 @media(max-width: 800px) {
     .image-on-top {
         visibility: hidden;
         display: none;
+    }
+}
+
+@media(max-width: 805px) {
+    .lower {
+        margin-top: 600px
     }
 }
