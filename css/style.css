@@ -13557,4 +13557,8 @@ textarea.form-control {
     .lower {
         margin-top: 600px
     }
+    .small-images {
+        background-size: 100%;
+        background-position: 50% 0px
+    }
 }
