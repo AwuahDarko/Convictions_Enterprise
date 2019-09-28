@@ -13531,3 +13531,19 @@ textarea.form-control {
     vertical-align: middle;
     border-style: none;
 }
+
+.image-on-top {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-right: 20%;
+}
+
+@media(max-width: 800px) {
+    .image-on-top {
+        visibility: hidden;
+        display: none;
+    }
+}
