@@ -12770,6 +12770,7 @@ textarea.form-control {
 .video {
     width: 100%;
     position: relative;
+    padding-top: 30%;
 }
 
 .icon-video {
@@ -13546,9 +13547,35 @@ textarea.form-control {
     margin-top: 100px
 }
 
+.v-flex {
+    display: flex;
+    /* flex-direction: column */
+}
+
+.resize {
+    width: 50%;
+}
+
+.fill-content {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 400px;
+}
+
+.justify-contents-top {
+    margin-top: 50%;
+}
+
 @media(max-width: 805px) {
     .small-images {
         background-size: 100%;
         background-position: 50% 0px
+    }
+    .v-flex {
+        flex-direction: column
+    }
+    .resize {
+        width: 100%;
     }
 }

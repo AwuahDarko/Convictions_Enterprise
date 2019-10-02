@@ -83,7 +83,6 @@
     <section class="home-slider owl-carousel">
         <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
             <div class="overlay"></div>
-
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
                     <!-- col-md-7 -->
@@ -98,6 +97,34 @@
         </div>
 
         <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+                    <!-- col-md-7  -->
+                    <div class="col-md-7 ftco-animate">
+                        <span class="subheading">Today's Talent, Tommorow's Success</span>
+                        <h1 class="mb-4">We Help to Grow Your Business</h1>
+                        <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
+                        <!-- <img src="images/will2.jpg" width="50px" height="400px"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item" style="background-image:url(images/sky2.jpg);">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+                    <!-- col-md-7  -->
+                    <div class="col-md-7 ftco-animate">
+                        <span class="subheading">Welcome to Conviction Enterprise</span>
+                        <h1 class="mb-4">We Are The Best Consulting Agency</h1>
+                        <p><a href="services.html" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
+                        <!-- <img src="images/will2.jpg" width="10%" height="400px"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item" style="background-image:url(images/sky1.jpg);">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
@@ -180,55 +207,52 @@
 
     <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/project-9.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-md-6 py-5 px-md-5">
-                    <div class="py-md-5">
-                        <div class="heading-section heading-section-white ftco-animate mb-5">
-                            <h2 class="mb-4">Request A Quote</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        </div>
-                        <form action="#" class="appointment-form ftco-animate">
-                            <div class="d-md-flex">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name">
-                                </div>
-                                <div class="form-group ml-md-4">
-                                    <input type="text" class="form-control" placeholder="Last Name">
-                                </div>
-                            </div>
-                            <div class="d-md-flex">
-                                <div class="form-group">
-                                    <div class="form-field">
-                                        <div class="select-wrap">
-                                            <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                            <select name="" id="" class="form-control">
-		                    	<option value="">Select Guidance</option>
-		                      <option value="">Finance</option>
-		                      <option value="">Business</option>
-		                      <option value="">Auto Loan</option>
-		                      <option value="">Real Estate</option>
-		                      <option value="">Other Services</option>
-		                    </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group ml-md-4">
-                                    <input type="text" class="form-control" placeholder="Phone">
-                                </div>
-                            </div>
-                            <div class="d-md-flex">
-                                <div class="form-group">
-                                    <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
-                                </div>
-                                <div class="form-group ml-md-4">
-                                    <input type="submit" value="Request A Quote" class="btn btn-white py-3 px-4">
-                                </div>
-                            </div>
-                        </form>
+        <div class="container v-flex">
+            <div class="resize" style="margin-top: 35px">
+                <div class="img img-video fill-content " style="background-image: url(images/video.jpg);">
+                    <div class="video">
+                        <a href="" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+                            <span class="ion-ios-play"></span>
+                        </a>
                     </div>
                 </div>
             </div>
+            <!-- <div class="row justify-content-end resize"> -->
+            <div class="col-md-6 py-5 px-md-5">
+                <div class="py-md-5">
+                    <div class="heading-section heading-section-white ftco-animate mb-5">
+                        <h2 class="mb-4">Request A Quote</h2>
+                        <p>Convictions Enterprise will be happy to work with you</p>
+                    </div>
+                    <form class="appointment-form ftco-animate" id="quote">
+                        <div class="d-md-flex">
+                            <div class="form-group">
+                                <input type="text" id="f-name" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="form-group ml-md-4">
+                                <input type="text" id="l-name" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="d-md-flex">
+                            <div class="form-group">
+                                <input type="text" id="guidance" class="form-control" placeholder="Guidance">
+                            </div>
+                            <div class="form-group ml-md-4">
+                                <input type="text" id="phone" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="d-md-flex">
+                            <div class="form-group">
+                                <textarea name="" id="message" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group ml-md-4">
+                                <input type="submit" value="Request A Quote" class="btn btn-white py-3 px-4">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- </div> -->
         </div>
     </section>
 
@@ -284,20 +308,20 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="ftco-footer-widget mb-5">
                         <h2 class="ftco-heading-2">Subscribe Us!</h2>
-                        <form action="#" class="subscribe-form">
+                        <form id="subscribe" class="subscribe-form">
                             <div class="form-group">
-                                <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                                <input type="submit" value="Subscribe" class="form-control submit px-3">
+                                <input type="text" id="mail" class="form-control mb-2 text-center" placeholder="Enter email address">
+                                <input type="submit" class="form-control submit px-3">
                             </div>
                         </form>
                     </div>
                     <div class="ftco-footer-widget mb-5">
                         <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
+                            <li class="ftco-animate"><a target="_blank" href="https://twitter.com/ConvictionsE"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a target="_blank" href="https://web.facebook.com/Convictions-Enterprise-102080877868741/?modal=admin_todo_tour"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a target="_blank" href="https://www.instagram.com/convictionsenterprise/"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a target="_blank" href="https://www.youtube.com/channel/UCAuhlhrfMR-jilcNcYSjap1A?view_as=subscriber"><span class="icon-youtube"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -324,8 +348,10 @@
     <script src="js/scrollax.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/email2.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="js/email3.js"></script>
 </body>
 
 </html>
